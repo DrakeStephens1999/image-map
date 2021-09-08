@@ -8,13 +8,66 @@
     <title>Melee Map</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../image-map/css/styles.css">
 </head>
 
 <body>
+    <header id="header">
+        <h1 class="header-text">2019 Melee Rankings</h1>
+        <h2 class="header-text">An Image Map</h2>
+    </header>
+    <!--Essay Section-->
+    <div id="Essay">
+        <h3 class="center-text underline">Why This Photo?</h3>
+        <p class="indent">Super Smash Brothers Melee for the Nintendo GameCube, this game shaped my entire highschool
+            mind.
+            Because of this I have friends, seen the world and received a healthy outlet for competition. For all that
+            and
+            more I was happy to choose something so special to me to code around. This picture illustrates the top 9
+            players
+            of 2019. Unfortunately these are the most recent rankings, because as it did for everyone covid got in the
+            way.
+        </p>
+        <p class="indent">The three sections of my map that I chose are as follows: Player’s names, the character that
+            they
+            play, and the ranking movements from the previous year (red and green column). The player’s names are
+            obviously
+            important because they worked hard for their names to be on the list. The characters are here in case the
+            viewer
+            wants to know more about the characters and their advanced techniques. Finally the rankings, I put them here
+            in
+            case the viewer wanted to see where the players were positioned from the year prior.</p>
+        <p class="indent">While anyone visiting this page might not see my passion from the photo. Hopefully my words
+            can
+            get you excited to interact with it. One of my favorite facts of this photo is that IBDW moved 25 spots up
+            in
+            one year, that alone shows enough storytelling for any average competition buff to have their interest
+            peaked.
+            Or half of the characters shown here are foxes, making the outliers that much more exciting. When I heard I
+            was
+            going to be able to make a image map out of something that interests me. My answer was clear.</p>
+    </div>
+    <!--Bullet list-->
+    <div id="list">
+        <h3 class="center-text underline">
+            List of clickable areas on the image map
+        </h3>
+        <ul>
+            <li>
+                Players: Player's names are clickable and when clicked will send you to their wikepedia pages
+            </li>
+            <li>
+                Characters: All the little character icons will send you to their respective smashboards pages
+            </li>
+            <li>
+                The last column: The final column on the right is a list of how much each player moved in the last year.
+                CLicking this link will send you to past year's rankings
+            </li>
+        </ul>
+    </div>
     <!--Image and  Image map-->
-    <div>
-    <img src="Top9.png" usemap="#image-map">
+    <div id="Image">
+        <img src="img/Top9.png" usemap="#image-map">
         <map name="image-map">
             <area target="" alt="Hungrybox" title="Hungrybox" href="https://liquipedia.net/smash/Hungrybox"
                 coords="47,2,223,41" shape="rect">
@@ -54,11 +107,16 @@
                 coords="243,312,15" shape="circle">
             <area target="" alt="Fox" title="Fox" href="https://smashboards.com/guides/categories/fox.24/"
                 coords="261,358,234,368,226,350,259,321,261,294,285,291,292,307,281,326,251,328" shape="poly">
-            <area target="" alt="Previous Rankings" title="Previous Rankings" href="https://liquipedia.net/smash/SSBMRank"
-                coords="457,3,461,369,401,369,397,2" shape="poly">
+            <area target="" alt="Previous Rankings" title="Previous Rankings"
+                href="https://liquipedia.net/smash/SSBMRank" coords="457,3,461,369,401,369,397,2" shape="poly">
         </map>
     </div>
-    <script src="" async defer></script>
+    <footer>
+        <h2 class="footer-text">
+            Drake Stephens | cs1430
+        </h2>
+    </footer>
+    <script src="../image-map/js/hi.js" async defer></script>
 </body>
 
 </html>

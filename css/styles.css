@@ -1,0 +1,72 @@
+/*Universal Css*/
+* {
+    color: lightgray;
+    font-family:monospace;
+    margin: 0;
+}
+.indent{
+    text-indent: 2em;
+}
+.center-text {
+    text-align: center;
+}
+.underline {
+    border-bottom: solid;
+    margin-left: 12%;
+    margin-right: 12%;  
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+/*Header Text*/
+header {
+    background-color: gray;
+}
+.header-text{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px
+    ;
+}
+/*essay*/
+#Essay {
+    background-color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    font-size: 2em;
+}
+/*list*/
+#list{    
+    background-color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    font-size: 2em;
+}
+/*image*/
+#Image{
+    background-color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    font-size: 2em;
+    text-align: center;
+}
+img{
+    border-style:solid;
+    border-color: white;
+    padding: 20px;
+    background-color: rgb(51, 47, 47);
+    margin-bottom: 20px;
+}
+/*footer*/
+footer {
+    background-color: gray;
+}
+.footer-text {
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+
